@@ -1,0 +1,66 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 600px;
+}
+
+#input {
+  width: 800px;
+  margin-left: 230px;
+}
+
+.head {
+  height: 300px;
+  background: url(https://cdn.who.int/media/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-479v.jpg?sfvrsn=4dba955c_12%20479w) no-repeat center/cover;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.left,
+.right {
+  margin: 5px;
+  padding: 15px 5px;
+}
+
+.topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  color: white;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.input {
+  padding: 2px;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #000;
+  height: 100vh;
+  color: white;
+}
+
+label {
+  color: black;
+}
+
+h5 {
+  color: white;
+  margin-left: 240px;
+}
